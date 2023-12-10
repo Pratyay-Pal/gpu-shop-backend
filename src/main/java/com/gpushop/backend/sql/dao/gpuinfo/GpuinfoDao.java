@@ -1,11 +1,10 @@
 package com.gpushop.backend.sql.dao.gpuinfo;
 
 import java.util.List;
-
-import com.gpushop.backend.sql.entity.Gpuinfo;
+import java.util.Map;
 
 public interface GpuinfoDao {
 
-	List<Gpuinfo> getAllGpus(); 
+	List<Map<String,String>> getAllGpus(); 
 	
 }

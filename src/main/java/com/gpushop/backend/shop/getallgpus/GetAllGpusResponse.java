@@ -1,20 +1,17 @@
 package com.gpushop.backend.shop.getallgpus;
 
 import java.util.List;
-
-import com.gpushop.backend.sql.entity.Gpuinfo;
+import java.util.Map;
 
 public class GetAllGpusResponse {
 
-	private List<Gpuinfo> gpulist;
+	private List<Map<String,String>> gpulist;
 
-	public List<Gpuinfo> getGpulist() {
+	public List<Map<String, String>> getGpulist() {
 		return gpulist;
 	}
 
-	public void setGpulist(List<Gpuinfo> gpulist) {
+	public void setGpulist(List<Map<String, String>> gpulist) {
 		this.gpulist = gpulist;
-	}
-
-		
+	}		
 }
